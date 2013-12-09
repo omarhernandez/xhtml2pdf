@@ -35,7 +35,7 @@ Requirements
 #. `html5lib 0.11.1+ <http://code.google.com/p/html5lib/>`_
 #. `pyPdf 1.11+ (optional) <http://pybrary.net/pyPdf/>`_
 
-   All requirements are listed in ``requirements.xml`` file.
+   All requirements are listed in ``requirements.txt`` file.
 
 Development environment
 =======================
@@ -71,9 +71,9 @@ Python, virtualenv and dependencies
 
     deactivate
 
-#. Next step will be to install/upgrade dependencies from ``requirements.xml`` file::
+#. Next step will be to install/upgrade dependencies from ``requirements.txt`` file::
 
-    pip install -r requirements.xml
+    pip install -r requirements.txt
 
 #. Run tests to check your configuration::
 
